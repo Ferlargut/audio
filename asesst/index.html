@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>Ejerecicio de Audio</title>
+</head>
+<body>
+   <audio src="sindaños.mp3" preload="auto" controls id="melodia"></audio>
+   <div id="set">
+       <button onclick="document.getElementById('melodia').play()" onmouseup="verAvanze();return false" style="BORDER: rgb(128,128,128) 1px solid; FONT-SIZE: 8pt; FONT-FAMILY: Verdana; 
+         BACKGROUND-COLOR: rgb(233,233,233)"    >Reproducir el Audio</button>
+        <button onclick="document.getElementById('melodia').pause()">Pausar el Audio</button>
+        <button onclick="document.getElementById('melodia').volume+=0.1">Aumentar el Volumen</button>
+        <button onclick="document.getElementById('melodia').volume-=0.1">Disminuir el Volumen</button>
+    
+  <p id="contador" ></p>
+  
+  </div>
+  <script src="///home/alumna40/Escritorio/audio/js/js.js"></script>
+    
+</body>
+</html>
